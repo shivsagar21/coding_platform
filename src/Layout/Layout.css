@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 4fr 1fr; 
+    /* padding: 1rem; */
+    /* margin: 1em;    */
+    height: 95vh;
+    font-family: "Lekton", monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    
+}
+.container2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* padding: 1rem; */
+    
+    /* border: 10px black solid; */
+
+}
+
+.container3{
+    height: 100%;
+    width:100%;
+    border: 1px rgb(150, 150, 150) solid;
+    color: rgb(200,200,200);
+    padding: 0.5rem;
+    background-color: rgb(46,50,53);
+}
+
+.btn{
+    width: 100%;
+    /* background-color: blue; */
+    background-color: rgb(100, 100, 100);
+    color: whitesmoke;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+.btn:hover{
+    background-color: rgb(60, 60, 60);
+}
