@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 .codeMirror{
-  height: 95vh;
+  height: 94vh;
 }
 .cm-editor {
   font-size: 18px;
   height: 100%;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
 .cm-content {
